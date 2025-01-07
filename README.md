@@ -16,3 +16,5 @@ A responsive survey form to gather information about users' interests in collect
 1. Clone this repository:
    ```bash
    git clone git@github.com:tylerhuynh287/freeCodeCampProject1.git
+
+To be updated.
