@@ -1,5 +1,5 @@
 # Card Collection Interests Survey
-A responsive survey form to gather information about users' interests in collectible card genres. Built as part of a freeCodeCamp project.
+A responsive survey form to gather information about users' interests in collectible card genres. Built as part of the freeCodeCamp Responsive Web Design Certification, Project 1.
 
 ## Features
 - **User-Friendly Form**: Collects name, email, and age.
