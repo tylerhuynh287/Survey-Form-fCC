@@ -16,5 +16,5 @@ A responsive survey form to gather information about users' interests in collect
 1. Clone this repository:
    ```bash
    git clone https://github.com/tylerhuynh287/Survey-Form-fCC.git
-
-To be updated.
+   cd Survey-Form-fCC
+   open index.html

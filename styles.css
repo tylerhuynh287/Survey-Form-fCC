@@ -18,8 +18,9 @@
     height: 100%;
     width: 100%;
     z-index: -1;
-    background-image: url(https://miro.medium.com/max/4800/1*M4-jlu-Y0UrSMx_ynfDxwQ.jpeg);
     background-size: cover;
+    background: rgba(0, 0, 0, 0.6) url(https://miro.medium.com/max/4800/1*M4-jlu-Y0UrSMx_ynfDxwQ.jpeg) center/cover no-repeat;
+    background-blend-mode: darken;
   }
   
   .container {
@@ -69,6 +70,8 @@
     background: rgba(105, 105, 105, 0.9);
     padding: 40px 10px;
     border-radius: 4px;
+    max-width: 700px;
+    margin: 0 auto;
   }
   
   @media (min-width: 480px) {
@@ -106,4 +109,22 @@
     color: inherit;
     border-radius: 2px;
     cursor: pointer;
+  }
+
+  .submit-button:hover {
+    background-color: #333;
+    color: white;
+  }
+
+  .submit-button:focus {
+    outline: 2px solid #fff;
+    outline-offset: 2px;
+  }
+
+  input:invalid {
+    border: 2px solid red;
+  }
+
+  input:valid {
+    border: 2px solid green;
   }
